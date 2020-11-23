@@ -1,13 +1,12 @@
 import java.util.ArrayList;
-import java.util.HashMap;
 
 /*
     Simple Class just for demo
  */
 public class Productservice {
 
-    private static ArrayList<String> products = new ArrayList<>();
-    private static ArrayList<String> shoppinglist = new ArrayList<>();
+    private static final ArrayList<String> products = new ArrayList<>();
+    private static final ArrayList<String> shoppinglist = new ArrayList<>();
 
 
     public static void main(String[] args) {
